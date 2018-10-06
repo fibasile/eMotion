@@ -52,10 +52,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3102bdda02b0424a9d04ab2efb33de0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 0.05
+  width: 0.01
   useCurve: 1
   flip: 0
-  bounds: {x: 10, y: 6}
+  bounds: {x: 10, y: 17.5}
   period: 0.05
   maxLength: 50
   step: 0.5
@@ -147,7 +147,7 @@ LineRenderer:
       m_NumAlphaKeys: 2
     numCornerVertices: 0
     numCapVertices: 0
-    alignment: 0
+    alignment: 1
     textureMode: 0
     generateLightingData: 0
   m_UseWorldSpace: 1
