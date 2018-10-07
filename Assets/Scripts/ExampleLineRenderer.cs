@@ -54,7 +54,7 @@ public class ExampleLineRenderer : MonoBehaviour
 
         gridPoint = Mathf.Round(gridPoint / 0.5f) * 0.5f;
 
-        float z = UnityEngine.Random.Range(-1.0f, 1.0f);
+        // float z = UnityEngine.Random.Range(-1.0f, 1.0f);
 
         startY = gridPoint + 0.25f;
         positions = new Vector3[2];
@@ -147,7 +147,7 @@ public class ExampleLineRenderer : MonoBehaviour
             bool allOut = true;
             for (int i = 0; i < positions.Length; i++)
             {
-                Vector3 normPosition = new Vector3(positions[i].x, positions[i].y, positions[i].z);
+                // Vector3 normPosition = new Vector3(positions[i].x, positions[i].y, positions[i].z);
                 if (positions[i].x > (-1.0f * bounds.x) + worldSpace.x && positions[i].x - worldSpace.x < bounds.x)
                 {
                     // Debug.Log("Found one in " + positions[i].x + " > " + -1.0f * bounds.x);
