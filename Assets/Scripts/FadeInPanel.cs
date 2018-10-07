@@ -11,7 +11,7 @@ public class FadeInPanel : MonoBehaviour
         // Transform transform = GetComponent<Transform>();
         // originalScale = transform.localScale;
         // transform.localScale = new Vector3(0.0f, originalScale.y, 0.0f);
-        iTween.FadeTo(gameObject, 0.0f, 0.0f);
+        // iTween.FadeTo(gameObject, 0.0f, 0.0f);
 
     }
 

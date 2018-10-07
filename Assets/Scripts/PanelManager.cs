@@ -74,14 +74,16 @@ public class PanelManager : MonoBehaviour
     {
         GameObject panel = panels[i];
         panel.SetActive(true);
-        panel.GetComponentInChildren<FadeInPanel>().Appear();
+        // panel.GetComponent<FadeInPanel>().Appear();
     }
 
     public void HidePanel(int i)
     {
         GameObject panel = panels[i];
+        panel.SetActive(false);
+        // panel.GetComponent<FadeInPanel>().Disappear();
+        // yield return new WaitForSeconds(1);
         // panel.SetActive(false);
-        panel.GetComponentInChildren<FadeInPanel>().Disappear();
     }
 
     // Update is called once per frame
