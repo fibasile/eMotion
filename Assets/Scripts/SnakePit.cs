@@ -18,7 +18,7 @@ public class SnakePit : MonoBehaviour
         GameObject prefab;
         for (int i = 0; i < count; i++)
         {
-            prefab = snakePrefabs[Mathf.RoundToInt(Random.RandomRange(0, (float)snakePrefabs.Length - 1))];
+            prefab = snakePrefabs[Mathf.RoundToInt(Random.Range(0.0f, (float)snakePrefabs.Length - 1))];
 
 
             GameObject snake = Instantiate(prefab, new Vector3(0.0f, 0.0f, 0.0f), Quaternion.identity, transform);

@@ -28,14 +28,14 @@ public class ExampleLineRenderer : MonoBehaviour
 
     private bool needsUpdate;
 
-    private Transform myTransform;
+
 
     private Vector3 worldSpace;
 
     void Start()
     {
 
-        myTransform = GetComponent<Transform>();
+
         lr = GetComponent<LineRenderer>();
         // lr.material = new Material(Shader.Find("Sprites/Default"));
         lr.widthMultiplier = width;
